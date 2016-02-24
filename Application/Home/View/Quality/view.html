@@ -1,0 +1,87 @@
+<style>
+	.photo_view {
+		width: 660px;
+		height: 295px;
+		text-align: center;
+	}
+	.zoomableContainer {
+		height: 95%;
+		text-align: center;
+		content-align: center;
+	}
+</style>
+<div id="view" class="easyui-dialog" style="width:833px;height:715px;padding:2px;overflow:hidden;" title="&nbsp;&nbsp;查看记录" data-options="iconCls:'icon-standard-folder-page',buttons:'#dlg-view',closed:true,resizable:false,modal:true,closable:true">
+	<div id="printview">
+		<table cellspacing="0" class="table_view" 　summary="这是显示质量问题报表的表格">
+		
+			<caption class="view_title"> 特种车事业部车辆质量问题</caption>
+
+		
+			<tr>
+				<td class="thh">车&nbsp;&nbsp;型</td>
+				<td id="cx_view"></td>
+				<td class="thh">反馈时间</td>
+				<td id="creattime_view"></td>
+				<td class="thh">责任单位</td>
+				<td id="zrdw_view">
+				</td>
+			</tr>
+			<tr>
+				<td class="thh">问题描述</td>
+				<td colspan="3" valign="middle" id="miaoshu_view"></td>
+				<td class="thh">问题来源</td>
+				<td valign="middle" id="laiyuan_view"></td>
+			</tr>
+			<tr>
+				<td class="thh">问题照片</td>
+
+				<td colspan="5" style="padding:0px;">
+
+					<div id="tt1" class="easyui-tabs" style="width:680px;height:336px;" data-options="border:'false'">
+						<div title="正确照片" style="padding:4px;">
+							<div class="photo_view" id="photo_viewOK">图片没有正确显示？</div>
+						</div>
+						<div title="错误照片" style="padding:4px;">
+
+							<div class="photo_view" id="photo_viewCW">图片没有正确显示？</div>
+						</div>
+
+					</div>
+
+				</td>
+
+			</tr>
+			<tr>
+				<td class="thh">原因分析</td>
+				<td colspan="5" height="70px" id="yuanyin_view"> </td>
+			</tr>
+			<tr>
+				<td class="thh">整改情况</td>
+				<td colspan="5" height="70px" id="zhenggai_view"></td>
+			</tr>
+			<tr>
+				<td class="thh">评&nbsp;&nbsp;论</td>
+				<td colspan="5" height="70px" id="pinlun_view"></td>
+			</tr>
+
+		</table>
+	</div>
+</div>
+
+<div id="dlg-view">
+	<div class="tool_tip">
+		单击图片,使用鼠标中键可以进行缩放显示！！
+		<!--
+		<table border="0px" cellspacing="0" cellpadding="0">			
+			<tr>
+				<td><a href="#" class="easyui-linkbutton" onclick="print_view()" data-options="iconCls:'icon-standard-printer',plain:true" onclick="">打印</a></td>
+				<td><div class="datagrid-btn-separator"></div></td>
+			<td>单击图片可以进行缩放显示！！</td>
+			</tr>
+		</table>	 -->
+	</div>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="down()">下载</a>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#view').dialog('close')">取消</a>
+</div>
+<script>
+</script>

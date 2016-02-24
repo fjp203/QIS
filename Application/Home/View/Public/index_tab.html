@@ -1,0 +1,133 @@
+<table width="90%" border="0" cellspacing="10">
+  <tr>
+    <td align="left" valign="top">
+	<div id="p1" class="easyui-panel" title="系统信息"    
+        style="width:400px;padding:0px;background:#fafafa;"  
+        data-options="iconCls:'icon-standard-application-home',closable:false,   
+                collapsible:true,minimizable:false,maximizable:false">  
+			
+				<div class="demo-info">
+		<div class="demo-tip icon-tip"></div>
+		<div><b>欢迎使用{$Think.config.SYSNAME}</b></div><br/>
+		
+		 <div class='smwd'>版本：{$Think.const.APP_VERSION}</div>		 
+         <div class='smwd'>功能：{$Think.config.FUNCTION}</div>
+     
+	</div>	
+				
+ 
+
+ 
+</div>
+	<br/>
+	<div id="p2" class="easyui-panel" title="使用说明"    
+        style="width:400px;padding:0px;background:#fafafa;"  
+        data-options="iconCls:'icon-standard-application-home',closable:false,   
+                collapsible:true,minimizable:false,maximizable:false">
+
+				<div class="demo-info">
+		<div class="demo-tip icon-tip"></div>
+		<div><b>使用本站前请认真阅读以下说明</b></div><br/>
+			 <li class='smwd'>使用本系统，请注意遵守公司保密规定；</li>
+			 <li class='smwd'>请不要使用本系统发布与质量无关的信心；</li>
+		 <li class='smwd'>普通用户无需登录，即可浏览、查询；</li>
+		 
+<li class='smwd'>质量信息录入者登录，即可发布质量信息；</li>
+<li class='smwd'>管理员用户可对整站进行管理；</li>
+<li class='smwd'>质量信息录入者注册后需管理员审核通过才能登录，审核结果会发送到注册用户的Email中；</li>
+	</div>
+ 
+
+ 	
+</div>
+	
+	
+	</td>
+       <td rowspan="2" align="left" valign="top"><div id="gPg" class="easyui-panel" title="系统公告"    
+        style="width:520px;padding:0px;background:#fafafa;overflow:hidden;;"  
+        data-options="iconCls:'icon-standard-world-link',closable:false,      
+                   collapsible:true,minimizable:false,maximizable:false">
+         <!--显示公告-->
+  
+           <table  id="announcement" border="0"></table>
+         </div>
+         	<br/>
+        <div id="gPg" class="easyui-panel" title="使用建议"    
+        style="width:520px;padding:0px;background:#fafafa;overflow:hidden;;"  
+        data-options="iconCls:'icon-standard-application-view-gallery',closable:false,      
+                   collapsible:true,minimizable:false,maximizable:false">
+            		<div class="demo-info">
+		<div class="demo-tip icon-tip"></div>       
+                   
+         <!--显示公告-->
+         强烈建议使用
+     	
+			<a href="__PUBLIC__/downloads/360se7.1.1.800.exe" target="_blank"><img src="__PUBLIC__/images/360brow.png"  class="linkicon" />&nbsp;360浏览器</a> 
+		或者
+			
+			<a href="__PUBLIC__/downloads/ChromeStandalone_v44.0.2403.157_Setup.1440142013.exe" target="_blank"><img src="__PUBLIC__/images/chrome.png" class="linkicon" />&nbsp;Chorme</a> 系列浏览器浏览本网站系统。</p>
+	
+         </div>
+            </div>
+       </div></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+    	<div id="p4" class="easyui-panel" title="友情链接"    
+        style="width:400px;padding:0px;background:#fafafa;"  
+        data-options="iconCls:'icon-standard-world-link',closable:false,      
+                   collapsible:true,minimizable:false,maximizable:false">
+				   
+				  		<div class="demo-info">
+	
+     <table width="90%" border="0" cellspacing="10">
+        <tr>
+          <td valign="middle" width="188"><a href="http://172.16.2.250/hrm" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/group.png" class="linkicon"/>&nbsp;人力资源网</a></td>
+          <td valign="middle" width="188"><a href="http://172.16.2.8/" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/email-open.png" class="linkicon" />&nbsp;陕汽邮箱</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://172.16.2.250:8080/HRM/share/Share?action=shareList" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/table-gear.png" class="linkicon"/>&nbsp;MES生产制造实行系统</a></td>
+          <td><a href="http://plm.sxqc.com/Windchill/" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/note-edit.png" class="linkicon" />&nbsp;PLM</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://192.168.37.73/tzcgyw/" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/report-magnify.png" class="linkicon"/>&nbsp;特种车事业部工艺网</a></td>
+          <td><a href="http://192.168.37.73/fwcn/" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/heart.png" class="linkicon" />&nbsp;特种车事业部服务承诺网</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://192.168.37.73/syb/" target="_blank"><img src="__PUBLIC__/easyui/themes/icons/icon-standard/16x16/feed.png" class="linkicon" />&nbsp;特种车事业部信息管理平台</a></td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+	</div>	 
+ 
+    </div></td>
+
+  </tr>
+  
+</table>
+ <script type="text/javascript" charset="utf-8">
+$('#announcement').datagrid({   
+    url: '__APP__/Home/Index/announcement',
+    height: 345,	
+		nowrap: false,
+		autoRowHeight: false,
+		striped: true,
+		collapsible: true,
+		fitColumns: true,
+		pagination: true,
+		autoRowHeight: true,
+		pageSize: 10,
+		pageList: [10, 20, 50],
+		striped: true, //交替行
+		singleSelect: true, //只允许选择一行
+		rownumbers: true,
+		sortName: 'creattime', //根据某个字段给easyUI排序
+		sortOrder: 'asc',
+		remoteSort: false,
+		idField: 'creattime',
+    columns:[[   
+        {field:'mc',title:'名称',width:100,align:'right'},
+        {field:'text',title:'内容',width:300}
+    ]]   
+});       
+       </script>

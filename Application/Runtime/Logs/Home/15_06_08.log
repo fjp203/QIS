@@ -1,0 +1,18 @@
+[ 2015-06-08T14:22:15+08:00 ] 192.168.37.81 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.702255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.702404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026053s ]
+

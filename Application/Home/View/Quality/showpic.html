@@ -1,0 +1,46 @@
+<style>
+	.picshow {
+		width: 49%;
+		border: 1px #0E2D5F solid;
+		float: left;
+		height: 99%;
+		padding: 4px;
+	}
+	.picshow h2 {
+		padding-top: 10px;
+		text-align: center;
+		color: #0E2D5F;
+	}
+	.b10 {
+		width: 10px;
+	}
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	.zoomableContainer {
+		height: 95%;
+		text-align: center;
+		content-align: center;
+	}
+</style>
+
+<div id="showpic" class="easyui-dialog" style="width:1024px; height: 768px; padding:5px; overflow: hidden;" title="&nbsp;&nbsp;显示图片" data-options="iconCls:'icon-standard-picture',buttons:'#dlg-showpic',closed:true,resizable:false,modal:true,closable:true">
+	<div id="cc" class="easyui-layout" style="width:1000px; height: 690px;">
+		<div data-options="region:'center',iconCls:'icon-standard-folder-picture',title:'正确图片'" style="padding:5px;">
+			<div id="picshowOK">图片没有正确显示？</div>
+		</div>
+		<div data-options="region:'east'" style="width:500px;">
+			<div class="easyui-panel" title="错误图片" data-options="iconCls:'icon-standard-picture-delete'" fit="true" border="false" style="padding:2px;">
+							<p id="picshowCW" style="text-align:center;">此处没有图片！！！</p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div id="dlg-showpic">
+	<div class="tool_tip">在图片点击鼠标中键可进行缩放、拖动查看。</div>
+
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="javascript:$('#showpic').dialog('close')">关闭</a>
+</div>

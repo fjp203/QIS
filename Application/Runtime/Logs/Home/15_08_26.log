@@ -1,0 +1,3213 @@
+[ 2015-08-26T15:20:42+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.817124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.817280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2015-08-26T15:20:49+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.7077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.1097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001962s ]
+
+[ 2015-08-26T15:20:49+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2015-08-26T15:20:51+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440573651183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 8 行.
+NOTIC: [8] Undefined index: uid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 174 行.
+NOTIC: [8] Undefined index: uid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 791 行.
+NOTIC: [8] Undefined index: group_id E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2015-08-26T15:20:52+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0239s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0737s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2015-08-26T15:21:31+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2015-08-26T15:25:20+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440573920151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 8 行.
+NOTIC: [8] Undefined index: uid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 174 行.
+NOTIC: [8] Undefined index: uid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 791 行.
+NOTIC: [8] Undefined index: group_id E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 791 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003701s ]
+
+[ 2015-08-26T15:25:21+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2015-08-26T15:25:45+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021930s ]
+
+[ 2015-08-26T15:25:48+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003604s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0467s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2015-08-26T15:25:49+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.2751s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2015-08-26T15:25:50+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440573950446
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003467s ]
+
+[ 2015-08-26T15:25:51+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0204s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2015-08-26T15:31:04+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2015-08-26T15:31:07+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.1223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2015-08-26T15:31:07+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2015-08-26T15:36:13+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.041812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009211s ]
+
+[ 2015-08-26T15:36:15+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0728s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0769s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002523s ]
+
+[ 2015-08-26T15:36:15+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2015-08-26T15:36:38+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440574597805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003246s ]
+
+[ 2015-08-26T15:36:39+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0348s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003414s ]
+
+[ 2015-08-26T15:39:03+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005106s ]
+
+[ 2015-08-26T15:39:05+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2015-08-26T15:39:06+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2015-08-26T15:39:21+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440574760967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2015-08-26T15:39:22+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003113s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2015-08-26T15:40:27+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/add_quality
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+
+[ 2015-08-26T15:40:28+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2015-08-26T15:40:43+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/add_quality
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0166s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_quality` (`cx`,`creattime`,`laiyuan`,`zrdw`,`miaoshu`,`yuanyin`,`zhenggai`,`userid`,`file_big_img`) VALUES ('asd','2015-08-26','售后反馈','零部件','asd','asd','asd','60','upload/2015-08-26/55dd6d7a9ee4c.png') [ RunTime:0.0478s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003700s ]
+
+[ 2015-08-26T15:40:43+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0427s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002337s ]
+
+[ 2015-08-26T15:42:49+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.117666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.117829s ]
+
+[ 2015-08-26T15:42:51+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005812s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0890s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2015-08-26T15:42:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2015-08-26T15:42:53+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440574973405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2015-08-26T15:42:54+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0241s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2015-08-26T15:43:03+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/add_quality
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.1030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_quality` (`cx`,`creattime`,`laiyuan`,`zrdw`,`miaoshu`,`yuanyin`,`zhenggai`,`userid`,`file_big_img`) VALUES ('asdasd','2015-08-26','售后反馈','零部件','asd','sadas','dsadasdas','60','upload/2015-08-26/55dd6e0749ee8.png') [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001872s ]
+
+[ 2015-08-26T15:43:04+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0186s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2015-08-26T15:44:38+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2015-08-26T15:44:40+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010065s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2015-08-26T15:44:40+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2015-08-26T15:44:42+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440575082126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2015-08-26T15:44:43+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0192s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2015-08-26T15:44:55+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/add_quality
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0195s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_quality` (`cx`,`creattime`,`laiyuan`,`zrdw`,`miaoshu`,`yuanyin`,`zhenggai`,`userid`,`file_big_img`) VALUES ('asdasdasd','2015-08-26','售后反馈','零部件','asd','阿斯达斯','阿萨德 ','60','upload/2015-08-26/55dd6e77296ac.png') [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002296s ]
+
+[ 2015-08-26T15:44:55+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0157s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002289s ]
+
+[ 2015-08-26T16:10:34+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440576633536
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000711s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009109s ]
+
+[ 2015-08-26T16:10:35+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.1402s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005425s ]
+
+[ 2015-08-26T16:15:28+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000909s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004651s ]
+
+[ 2015-08-26T16:15:30+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0609s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002411s ]
+
+[ 2015-08-26T16:15:30+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0219s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002412s ]
+
+[ 2015-08-26T16:15:32+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440576932532
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002708s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003215s ]
+
+[ 2015-08-26T16:15:33+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003014s ]
+
+[ 2015-08-26T16:16:01+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005411s ]
+
+[ 2015-08-26T16:16:02+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003130s ]
+
+[ 2015-08-26T16:16:02+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0195s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002904s ]
+
+[ 2015-08-26T16:16:05+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440576965043
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002775s ]
+
+[ 2015-08-26T16:16:06+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2015-08-26T16:17:19+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000617s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2015-08-26T16:17:20+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0402s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011598s ]
+
+[ 2015-08-26T16:17:20+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2015-08-26T16:17:23+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440577042901
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2015-08-26T16:17:23+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0253s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2015-08-26T16:33:25+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004087s ]
+
+[ 2015-08-26T16:33:27+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0396s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003234s ]
+
+[ 2015-08-26T16:33:27+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002276s ]
+
+[ 2015-08-26T16:33:29+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578009368
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2015-08-26T16:33:30+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0207s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2015-08-26T16:34:36+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004900s ]
+
+[ 2015-08-26T16:34:38+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002396s ]
+
+[ 2015-08-26T16:34:38+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2015-08-26T16:34:40+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578080316
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2015-08-26T16:34:41+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002215s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0197s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2015-08-26T16:36:50+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003214s ]
+
+[ 2015-08-26T16:36:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001789s ]
+
+[ 2015-08-26T16:36:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2015-08-26T16:36:54+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578214171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000517s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005853s ]
+
+[ 2015-08-26T16:36:55+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0478s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2015-08-26T16:37:36+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005778s ]
+
+[ 2015-08-26T16:37:38+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003460s ]
+
+[ 2015-08-26T16:37:38+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002520s ]
+
+[ 2015-08-26T16:37:39+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578259801
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000545s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2015-08-26T16:37:40+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2015-08-26T16:39:13+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003193s ]
+
+[ 2015-08-26T16:39:14+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002095s ]
+
+[ 2015-08-26T16:39:15+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0198s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2015-08-26T16:39:16+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578356076
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000705s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000899s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002913s ]
+
+[ 2015-08-26T16:39:17+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0241s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2015-08-26T16:39:29+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000613s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004024s ]
+
+[ 2015-08-26T16:39:31+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2015-08-26T16:39:31+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2015-08-26T16:39:32+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578372721
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001761s ]
+
+[ 2015-08-26T16:39:33+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0336s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2015-08-26T16:41:25+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000485s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002702s ]
+
+[ 2015-08-26T16:41:27+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2015-08-26T16:41:27+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0235s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2015-08-26T16:41:29+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578488950
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003867s ]
+
+[ 2015-08-26T16:41:30+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0212s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001654s ]
+
+[ 2015-08-26T16:42:29+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003098s ]
+
+[ 2015-08-26T16:42:31+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0477s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002991s ]
+
+[ 2015-08-26T16:42:31+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2015-08-26T16:42:33+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578553116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003542s ]
+
+[ 2015-08-26T16:42:34+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0187s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003967s ]
+
+[ 2015-08-26T16:44:00+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002970s ]
+
+[ 2015-08-26T16:44:02+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2015-08-26T16:44:02+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2015-08-26T16:44:04+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578644217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000381s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004454s ]
+
+[ 2015-08-26T16:44:05+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0195s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2015-08-26T16:44:59+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000560s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2015-08-26T16:45:01+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2015-08-26T16:45:02+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2015-08-26T16:45:03+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578703361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002578s ]
+
+[ 2015-08-26T16:45:05+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0244s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2015-08-26T16:46:23+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000456s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004891s ]
+
+[ 2015-08-26T16:46:26+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2015-08-26T16:46:26+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2015-08-26T16:46:41+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578801518
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002217s ]
+
+[ 2015-08-26T16:46:43+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0203s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2015-08-26T16:47:53+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004997s ]
+
+[ 2015-08-26T16:47:55+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2015-08-26T16:47:55+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2015-08-26T16:47:56+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578876807
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000525s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2015-08-26T16:47:58+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0565s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002209s ]
+
+[ 2015-08-26T16:48:33+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000481s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006002s ]
+
+[ 2015-08-26T16:48:35+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0536s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0278s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007376s ]
+
+[ 2015-08-26T16:48:36+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001759s ]
+
+[ 2015-08-26T16:48:37+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440578917773
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2015-08-26T16:48:39+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0408s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2015-08-26T16:54:56+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009543s ]
+
+[ 2015-08-26T16:54:58+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2015-08-26T16:54:58+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2015-08-26T16:55:00+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440579299970
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2015-08-26T16:55:01+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2015-08-26T16:56:17+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003348s ]
+
+[ 2015-08-26T16:56:18+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0231s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2015-08-26T16:56:19+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002310s ]
+
+[ 2015-08-26T16:56:20+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440579380791
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2015-08-26T16:56:22+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0161s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2015-08-26T16:59:23+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005947s ]
+
+[ 2015-08-26T16:59:25+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2015-08-26T16:59:25+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2015-08-26T16:59:27+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440579567083
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000462s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003944s ]
+
+[ 2015-08-26T16:59:28+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012757s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0185s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010399s ]
+
+[ 2015-08-26T17:01:17+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004715s ]
+
+[ 2015-08-26T17:01:18+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0283s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002732s ]
+
+[ 2015-08-26T17:01:18+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0148s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0240s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2015-08-26T17:01:20+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440579680184
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2015-08-26T17:01:21+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0265s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001874s ]
+
+[ 2015-08-26T17:02:21+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000542s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003424s ]
+
+[ 2015-08-26T17:02:23+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2015-08-26T17:02:23+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2015-08-26T17:02:24+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440579744648
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2015-08-26T17:02:25+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0218s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2015-08-26T17:26:50+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000525s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2015-08-26T17:26:51+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0623s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2015-08-26T17:26:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002363s ]
+
+[ 2015-08-26T17:26:53+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581213445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2015-08-26T17:26:54+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0903s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004091s ]
+
+[ 2015-08-26T17:29:09+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2015-08-26T17:29:11+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2015-08-26T17:29:11+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001904s ]
+
+[ 2015-08-26T17:29:13+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581353584
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2015-08-26T17:29:14+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0212s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2015-08-26T17:29:41+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004685s ]
+
+[ 2015-08-26T17:29:43+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002759s ]
+
+[ 2015-08-26T17:29:43+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2015-08-26T17:29:45+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581385315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001865s ]
+
+[ 2015-08-26T17:29:46+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0236s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2015-08-26T17:30:11+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003499s ]
+
+[ 2015-08-26T17:30:13+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2015-08-26T17:30:13+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0991s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001811s ]
+
+[ 2015-08-26T17:30:15+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581414951
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2015-08-26T17:30:15+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0243s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2015-08-26T17:30:43+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003263s ]
+
+[ 2015-08-26T17:30:44+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005085s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2015-08-26T17:30:44+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2015-08-26T17:30:46+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581446245
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002593s ]
+
+[ 2015-08-26T17:30:47+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0218s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2015-08-26T17:31:50+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000391s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004454s ]
+
+[ 2015-08-26T17:31:51+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+
+[ 2015-08-26T17:31:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2015-08-26T17:31:53+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581513684
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001913s ]
+
+[ 2015-08-26T17:31:54+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0254s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2015-08-26T17:32:50+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004242s ]
+
+[ 2015-08-26T17:32:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0174s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0422s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001823s ]
+
+[ 2015-08-26T17:32:52+08:00 ] 127.0.0.1 /qis/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2015-08-26T17:32:54+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1440581574059
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000358s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001844s ]
+
+[ 2015-08-26T17:32:55+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0205s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+

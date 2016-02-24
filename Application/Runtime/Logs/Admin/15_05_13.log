@@ -1,0 +1,92 @@
+[ 2015-05-13T10:05:02+08:00 ] 127.0.0.1 /qis/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.060050s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'fjp203' LIMIT 1   [ RunTime:0.024845s ]
+SQL: UPDATE `think_user` SET `login_ip`='127.0.0.1',`last_login_time`='15-05-13 10:05:02' WHERE `id` = 52 [ RunTime:0.051674s ]
+SQL: UPDATE `think_user` SET `login_num`=login_num+1 WHERE `id` = 52 [ RunTime:0.018879s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2015-05-13T15:24:31+08:00 ] 127.0.0.1 /qis/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.448675s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'fjp203' LIMIT 1   [ RunTime:0.293795s ]
+SQL: UPDATE `think_user` SET `login_ip`='127.0.0.1',`last_login_time`='15-05-13 03:24:31' WHERE `id` = 52 [ RunTime:0.235288s ]
+SQL: UPDATE `think_user` SET `login_num`=login_num+1 WHERE `id` = 52 [ RunTime:0.019680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2015-05-13T15:37:48+08:00 ] 127.0.0.1 /qis/index.php/Admin/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2015-05-13T16:14:12+08:00 ] 127.0.0.1 /qis/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.126733s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'fjp203' LIMIT 1   [ RunTime:0.243071s ]
+SQL: UPDATE `think_user` SET `login_ip`='127.0.0.1',`last_login_time`='15-05-13 04:14:12' WHERE `id` = 52 [ RunTime:0.238288s ]
+SQL: UPDATE `think_user` SET `login_num`=login_num+1 WHERE `id` = 52 [ RunTime:0.000854s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+

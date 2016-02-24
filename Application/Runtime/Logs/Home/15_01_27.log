@@ -1,0 +1,1549 @@
+[ 2015-01-27T13:52:07+08:00 ] 127.0.0.1 /qis/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.227255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2015-01-27T13:52:33+08:00 ] 127.0.0.1 /qis/Home/Quality/show_Quality?_=1422337953129
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004005s ]
+
+[ 2015-01-27T13:52:34+08:00 ] 127.0.0.1 /qis/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.179935s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006297s ]
+
+[ 2015-01-27T13:52:51+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/add_quality
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.008917s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_quality` (`cx`,`creattime`,`laiyuan`,`miaoshu`,`yuanyin`,`zhenggai`,`file_big_img`,`file_small_img`) VALUES ('111','2015-01-27','0','sad','dasd','dd','upload/2015-01-27/54c727b294449.jpg','upload/2015-01-27/small_54c727b294449.jpg') [ RunTime:0.001063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001937s ]
+
+[ 2015-01-27T13:52:53+08:00 ] 127.0.0.1 /QIS/index.php/Home/Quality/add_quality
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.027602s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `think_quality` (`cx`,`creattime`,`laiyuan`,`miaoshu`,`yuanyin`,`zhenggai`,`file_big_img`,`file_small_img`) VALUES ('111','2015-01-27','0','sad','dasd','dd','upload/2015-01-27/54c727b58345f.jpg','upload/2015-01-27/small_54c727b58345f.jpg') [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002268s ]
+
+[ 2015-01-27T13:53:01+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2015-01-27T13:53:03+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422337983565
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2015-01-27T13:53:04+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.012334s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2015-01-27T14:00:28+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422338427989
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003177s ]
+
+[ 2015-01-27T14:00:29+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.013331s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.001397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2015-01-27T14:01:37+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422338497478
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006666s ]
+
+[ 2015-01-27T14:01:38+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.043720s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002015s ]
+
+[ 2015-01-27T14:08:29+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422338908610
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003489s ]
+
+[ 2015-01-27T14:08:29+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.045040s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2015-01-27T14:08:42+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422338922385
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.027216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.027443s ]
+
+[ 2015-01-27T14:08:43+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.012447s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2015-01-27T16:08:00+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2015-01-27T16:13:48+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024045s ]
+
+[ 2015-01-27T16:15:54+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001964s ]
+
+[ 2015-01-27T16:17:51+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001847s ]
+
+[ 2015-01-27T16:22:10+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/index_tab.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003128s ]
+
+[ 2015-01-27T16:22:18+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422346938178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002152s ]
+
+[ 2015-01-27T16:22:21+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.014408s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.001028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2015-01-27T16:22:58+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/Index/index_tab.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\QIS\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003373s ]
+
+[ 2015-01-27T16:23:21+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000689s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011953s ]
+
+[ 2015-01-27T16:23:43+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422347023615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005575s ]
+
+[ 2015-01-27T16:23:46+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.009360s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2015-01-27T16:24:42+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2015-01-27T16:26:51+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2015-01-27T16:29:10+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2015-01-27T16:29:24+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422347363842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2015-01-27T16:29:26+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.010984s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2015-01-27T16:30:11+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2015-01-27T16:31:45+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002952s ]
+
+[ 2015-01-27T16:31:51+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2015-01-27T16:32:06+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 31 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 36 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2015-01-27T16:32:39+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 114 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2015-01-27T16:32:43+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000254s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 43 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 51 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 114 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004251s ]
+
+[ 2015-01-27T16:34:08+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010635s ]
+
+[ 2015-01-27T16:36:08+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002041s ]
+
+[ 2015-01-27T16:36:30+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2015-01-27T16:38:31+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006044s ]
+
+[ 2015-01-27T16:39:42+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012222s ]
+
+[ 2015-01-27T16:42:06+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2015-01-27T16:42:12+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006595s ]
+
+[ 2015-01-27T16:42:23+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007668s ]
+
+[ 2015-01-27T16:44:20+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008855s ]
+
+[ 2015-01-27T16:44:32+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004335s ]
+
+[ 2015-01-27T16:45:01+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2015-01-27T16:45:56+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.068032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.068280s ]
+
+[ 2015-01-27T16:50:01+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 101 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002776s ]
+
+[ 2015-01-27T16:50:17+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422348617067
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2015-01-27T16:50:19+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.012902s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2015-01-27T16:50:47+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422348647003
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2015-01-27T16:50:49+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.009558s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2015-01-27T16:54:21+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002822s ]
+
+[ 2015-01-27T16:57:05+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2015-01-27T16:59:12+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.038505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001999s ]
+
+[ 2015-01-27T16:59:42+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001359s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006375s ]
+
+[ 2015-01-27T16:59:51+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422349191051
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2015-01-27T16:59:53+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.024179s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.001159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2015-01-27T17:03:32+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002491s ]
+
+[ 2015-01-27T17:03:49+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.051671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.051868s ]
+
+[ 2015-01-27T17:04:54+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 106 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001928s ]
+
+[ 2015-01-27T17:05:00+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422349499957
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004629s ]
+
+[ 2015-01-27T17:05:01+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.007984s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002277s ]
+
+[ 2015-01-27T17:05:55+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010225s ]
+
+[ 2015-01-27T17:06:03+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422349563490
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005356s ]
+
+[ 2015-01-27T17:06:04+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.008947s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2015-01-27T17:06:07+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422349567296
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2015-01-27T17:06:08+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.008828s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.006462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002189s ]
+
+[ 2015-01-27T17:07:27+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 30 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined index: username E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 38 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 87 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002564s ]
+
+[ 2015-01-27T17:08:45+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1422349724783
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2015-01-27T17:08:45+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.021759s ]
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=">
+		<title>{$Think.const.APP_NAME}</title>
+		<include file="Public/header" /> 				
+</head>
+
+
+<body class="easyui-layout">
+<!--遮罩显示start-->
+	<div id='Loading' style="position:absolute;z-index:1000;top:0px;left:0px;width:100%;height:100%;background:#DDDDDB url('__PUBLIC__/images/bodybg.jpg');text-align:center;padding-top: 20%;">
+	<h1>
+		
+		<img src="__PUBLIC__/images/logo.png" height="150px" alt="logo" /><br>
+		<img src='__PUBLIC__/images/loading.gif'/><font color="#15428B">正在加载中···</font>
+	</h1>
+</div>
+<!--遮罩显示end-->
+	 
+	 <include file="Public/script" />
+	 
+    <include file="Public/north" /> 
+    <include file="Public/west" /> 
+    <include file="Public/center" /> 
+    <include file="Public/south" />
+    <include file="Public/show" /> 
+
+</body>
+</html>

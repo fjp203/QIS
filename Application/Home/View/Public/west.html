@@ -1,0 +1,116 @@
+	<div data-options="region:'west',title:'※ 欢迎您使用本系统 ※',split:true"
+		style="width: 170px;">
+		<div id="aa" class="easyui-accordion"
+			data-options="fit:true,border:false ">
+			<if condition="$_SESSION[C('USER_AUTH_KEY')]==1">
+						<div title="用户管理" data-options="iconCls:'panel-icon icon-gyy'"
+				style="overflow: auto; padding: 10px;">
+	<ul id="navigation_user" class="easyui-tree">  
+    <li id='user_null' data-options="iconCls:'icon-standard-user'">  
+        <span>用户管理</span>  
+        <ul>  
+            <li id='user_manage' data-options="iconCls:'icon-standard-user-edit'">    
+                <span>用户管理</span>  
+            </li>  
+     
+    
+        </ul>  
+    </li>  
+
+</ul>
+			</div>
+	
+			
+			
+			</if>
+
+			<div title="质量文件" data-options="iconCls:'icon-standard-folder-magnify',selected:true" style="overflow: auto; padding: 10px;">
+				<!--通过json生成列表，js文件在myjs.js里 -->
+			
+
+ 	<ul id="navigation_search" class="easyui-tree">  
+    <li id='search_null' data-options="iconCls:'icon-standard-folder-table'">  
+        <span>质量信息列表</span>  
+        <ul>  
+        
+            <li id='search_info' data-options="iconCls:'icon-standard-table-multiple'">    
+                <span>质量信息</span>  
+            </li>  
+    
+        </ul>  
+    </li>  
+ 
+</ul>
+			</div>
+			
+		</div>
+	</div>
+<script type="text/javascript">
+//质量信息列表
+$('#navigation_search').tree({
+	onClick: function(node){
+		//alert(node.id);  // alert node text property when clicked
+		//
+       if(node.id!="search_null" ){
+		  if ($('#tab').tabs('exists', node.text)){
+		        $('#tab').tabs('select', node.text);    
+		    } else {
+		var  urll='';
+    	switch(node.id)
+    	{
+    	case 'search_info':
+    		urll='Home/Quality/show_Quality';//质量信息
+    	  break;
+    	case '2':
+    		urll='Home/Data/result2';
+    	  break;
+    	}
+$('#tab').tabs('add',{ 
+    title:node.text, 
+    iconCls:node.iconCls,  
+    fit:true,
+    href:urll,
+    closable:true  
+}); 
+	}
+       }
+		
+	}
+});
+//用户管理
+$('#navigation_user').tree({
+	onClick: function(node){
+		//alert(node.id);  // alert node text property when clicked
+		//
+       if(node.id!="user_null"  && node.id!="right_null"){
+		  if ($('#tab').tabs('exists', node.text)){
+		        $('#tab').tabs('select', node.text);    
+		    } else {
+		var  urll='';
+    	switch(node.id)
+    	{
+    	case 'user_manage':
+    		urll='__APP__/Admin/User/user';//
+    	  break;
+    	case 'user_member':
+    		urll='__APP__/Admin/User/group';//
+    	  break;
+    	 case 'right_manage':
+    		urll='__APP__/Admin/User/right';//
+    	  break;
+    	}
+$('#tab').tabs('add',{ 
+    title:node.text, 
+    iconCls:node.iconCls,  
+    fit:true,
+    href:urll,
+    closable:true  
+}); 
+	}
+       }
+		
+	}
+});
+</script>
+	
+	

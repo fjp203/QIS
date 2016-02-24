@@ -1,0 +1,89 @@
+[ 2015-06-04T16:14:35+08:00 ] 192.168.37.81 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 159 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.344091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.344257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.034173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011113s ]
+
+[ 2015-06-04T16:14:41+08:00 ] 192.168.37.81 /QIS/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `think_announcement` [ RunTime:0.1865s ]
+SQL: SELECT * FROM `think_announcement` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_announcement` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2015-06-04T16:14:41+08:00 ] 192.168.37.81 /QIS/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `think_announcement` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `think_announcement` WHERE `status` = 1 ORDER BY id asc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_announcement` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2015-06-04T16:14:44+08:00 ] 192.168.37.81 /QIS/Home/Quality/show_Quality?_=1433405414156
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 8 行.
+NOTIC: [8] Undefined index: uid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 174 行.
+NOTIC: [8] Undefined index: uid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 792 行.
+NOTIC: [8] Undefined index: group_id E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 792 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003673s ]
+
+[ 2015-06-04T16:14:48+08:00 ] 192.168.37.81 /QIS/index.php/Home/Quality/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.1030s ]
+NOTIC: [8] Undefined variable: laiyuan E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: pinglun E:\xampp\htdocs\QIS\Application\Home\Controller\QualityController.class.php 第 32 行.
+SQL: SELECT * FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') ORDER BY id asc LIMIT 0,50   [ RunTime:0.0274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` WHERE (`cx` LIKE '%%') AND (`creattime` LIKE '%%') AND (`miaoshu` LIKE '%%') AND (`zrdw` LIKE '%%') AND (`laiyuan` LIKE '%%') AND (`yuanyin` LIKE '%%') AND (`zhenggai` LIKE '%%') AND (`pinglun` LIKE '%%') LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002386s ]
+

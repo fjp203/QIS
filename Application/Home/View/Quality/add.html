@@ -1,0 +1,206 @@
+<style>
+	.uploadpic{
+		float:left;
+		width: 295px;
+		text-align:center;
+		height:165px;
+	}
+	.uploadpic h3{
+		text-align:left;
+		border:1px solid  #95B8E7;
+		float:left;
+		padding:4px;
+		background-color:#95B8E7;
+		color:#FFF;
+	}
+	.up-content{
+		border:1px solid  #95B8E7;
+		padding:4px;
+	}
+	.w10{
+		float:left;
+		width:10px;
+		color:#FFF;
+	}
+</style>
+<div id="add" class="easyui-dialog" style="width: 728px; height: 608px; padding: 0px; overflow: hidden;" title="&nbsp;&nbsp;记录添加" data-options="iconCls:'icon-standard-folder-page',buttons:'#dlg-add',closed:true,resizable:false,modal:false,closable:true">
+	<form id="add_form" action="__APP__/Home/Quality/add_quality" enctype="multipart/form-data" method="post" >
+		<table width="100%" cellspacing="0" class="table_form">
+	<tr>
+		<th width="80">基本信息</th>
+		<td style="height: 40px" colspan="3">
+			<div>
+				<label>车型：
+					<input id="cx" name="cx" class="easyui-validatebox" style="width: 200px" />
+				</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<label for="creattime">创建日期：
+					<input id="creattime" name="creattime" type="text" class="easyui-datebox" data-options="editable:false" style="width: 178px"></input>
+				</label>
+			</div>
+
+			<div style="padding:10px 0 0 0 ">
+
+				<label for="laiyuan">来源：
+					<select id="laiyuan" class="easyui-combobox" name="laiyuan" data-options="editable:true,panelHeight:'auto'" style="width: 200px;">
+						<option value="售后反馈" select="true">售后反馈</option>
+						<option value="市场走访">市场走访</option>
+						<option value="车辆评审">车辆评审</option>
+						<option value="车辆交验">车辆交验</option>
+						<option value="工位稽查">工位稽查</option>
+						<option value="库房评审">库房评审</option>
+						<option value="车辆军检">车辆军检</option>
+					</select>
+				</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label for="zrdw">责任单位：
+					<select id="zrdw" class="easyui-combobox" name="zrdw" data-options="editable:true,panelHeight:'auto'" style="width: 178px;">
+						<option value="零部件" select="true">零部件</option>
+						<option value="设计">设计</option>
+						<option value="工艺">工艺</option>
+						<option value="装配">装配</option>
+					</select>
+				</label>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<th width="80">问题描述</th>
+		<td>
+			<input type="text" style="width: 400px;" name="miaoshu" id="miaoshu_content" value="">
+			<br />
+			<div id="miaoshu_contentwordage"></div>
+		</td>
+	</tr>
+	<tr>
+		<th width="80">原因分析</th>
+		<td>
+			<textarea name="yuanyin" id="yuanyin_content" style="width: 98%; height: 46px;" onkeyup=""></textarea>
+			<br />
+			<div id="yuanyin_contentwordage"></div>
+		</td>
+	</tr>
+	<tr>
+		<th width="80">问题整改</th>
+		<td>
+			<textarea name="zhenggai" id="zhenggai_content" style="width: 98%; height: 46px;" onkeyup=""></textarea>
+			<br />
+			<div id="zhenggai_contentwordage"></div>
+		</td>
+	</tr>
+
+	<tr>
+		<th width="80">上传图片</th>
+		<td>
+			<div class="uploadpic">
+				<h3>正确状态</h3>
+				<br/>
+				<div class="up-content"><img id="GoodImgPr" src="__PUBLIC__/images/nopic.gif" style="height:120px;width:120px" />
+					<input type="file" id="filegood" name="img[]" accept="image/jpeg,image/png,image/jpg" aceonchange="CheckFile(this)" />
+				</div>
+			</div>
+			<div class="w10">asda</div>
+			<div class="uploadpic">
+				<h3>错误状态</h3>
+				<br/>
+				<div class="up-content"><img id="BadImgPr" src="__PUBLIC__/images/nopic.gif" style="height:120px;width:120px" />
+					<input type="file" id="filebad" name="img[]" accept="image/jpeg,image/png,image/jpg" aceonchange="CheckFile(this)" />
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+	<input type="hidden" name="userid" id="userid" value= {$_SESSION['uid']}>
+	</form>
+	<div class="result">
+          <notempty name="photos">
+              <foreach name="photos" item="vo" >
+    {$key}|{$vo}
+              </foreach>
+          </notempty>
+    </div>
+	<br>
+</div>
+
+<div id="dlg-add">
+	<div class="tool_tip">添加记录后会在列表中出现！！</div>
+	<a href="#" id="addok" class="easyui-linkbutton" data-options="iconCls:'icon-ok'"
+		onclick="add()">确认</a>
+	<a href="#" class="easyui-linkbutton"
+		data-options="iconCls:'icon-cancel'"
+		onclick="javascript:$('#add').dialog('close')">取消</a>
+</div>
+<script>
+function CheckFile(obj) {
+    var array = new Array('jpeg', 'png', 'jpg');  //可以上传的文件类型
+    if (obj.value == '') {
+        alert("请选择要上传的图片!");
+        return false;
+    }
+    else {
+        var fileContentType = obj.value.match(/^(.*)(\.)(.{1,8})$/)[3]; //这个文件类型正则很有用：）
+        var isExists = false;
+        for (var i in array) {
+            if (fileContentType.toLowerCase() == array[i].toLowerCase()) {
+                isExists = true;
+                return true;
+            }
+        }
+        if (isExists == false) {
+            obj.value = null;
+            alert("上传图片类型不正确!");
+            return false;
+        }
+        return false;
+    }
+}
+$(document).ready(function(){
+    var limitNum = 100;
+    var pattern = '还可以输入' + limitNum + '字符';
+    $('#miaoshu_contentwordage').html(pattern);
+    $('#miaoshu_content').keyup(
+    function(){
+        var remain = $(this).val().length;
+        if(remain > limitNum){
+                pattern = "字数超过限制！";
+            }else{
+                var result = limitNum - remain;
+                pattern = '还可以输入' + result + '字符';
+            }
+            $('#miaoshu_contentwordage').html(pattern);
+        }
+    );
+    
+    var limitNumB = 255;
+    var patternB = '还可以输入' + limitNumB + '字符';
+    $('#yuanyin_contentwordage').html(patternB);
+    $('#yuanyin_content').keyup(
+    function(){
+        var remain = $(this).val().length;
+        if(remain > limitNumB){
+                patternB = "字数超过限制！";
+            }else{
+                var result = limitNumB - remain;
+                patternB = '还可以输入' + result + '字符';
+            }
+            $('#yuanyin_contentwordage').html(patternB);
+        }
+    );
+    $('#zhenggai_contentwordage').html(patternB);
+    $('#zhenggai_content').keyup(
+    function(){
+        var remain = $(this).val().length;
+        if(remain > limitNumB){
+                patternB = "字数超过限制！";
+            }else{
+                var result = limitNumB - remain;
+                patternB = '还可以输入' + result + '字符';
+            }
+            $('#zhenggai_contentwordage').html(patternB);
+        }
+    );
+    
+    //显示图片
+    $("#filegood").uploadPreview({ Img: "GoodImgPr", Width: 120, Height: 120 });
+    $("#filebad").uploadPreview({ Img: "BadImgPr", Width: 120, Height: 120 });
+});
+</script>

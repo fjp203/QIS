@@ -1,0 +1,113 @@
+<div id="edit" class="easyui-dialog" style="width:646px;height:360px;padding:0px;overflow:hidden;"     
+        title="&nbsp;&nbsp;编辑记录"  data-options="iconCls:'icon-standard-folder-page',buttons:'#dlg-edit',closed:true,resizable:false,modal:true,closable:true">  
+            
+
+    <form id="edit_form"  method="post" >    
+        <table width="100%" cellspacing="0" class="table_form">
+			<tr >
+			<th width="80">基本信息</th>
+				<td style="height: 40px" colspan="3">
+				
+				<div>
+				<label>车型：
+
+						<input id="cx" name="cx" class="easyui-validatebox" style="width: 200px" />
+					</label>
+					
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<label for="creattime">创建日期：
+					<input id="creattime" name="creattime" type="text"
+						class="easyui-datebox" 
+						data-options="editable:false" style="width: 178px"></input></label>
+
+				
+				</div>
+					
+<div style="padding:10px 0 0 0 ">
+
+<label for="laiyuan">来源：
+					<select id="laiyuan" class="easyui-combobox" name="laiyuan"
+						data-options="editable:false,panelHeight:'auto'"
+						style="width: 200px;">
+						<option value="零部件" select="true">零部件</option>
+						<option value="工艺">工艺</option>
+						<option value="装配">装配</option>
+
+
+					</select></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="zrdw">责任单位：
+					<select id="zrdw" class="easyui-combobox" name="zrdw"
+						data-options="editable:false,panelHeight:'auto'"
+						style="width: 178px;">
+						<option value="零部件" select="true">零部件</option>
+						<option value="工艺">工艺</option>
+						<option value="装配">装配</option>
+
+
+					</select></label>
+</div>
+
+					
+
+
+
+				</td>
+
+
+			</tr>
+
+
+
+
+			<tr>
+				<th width="80">问题描述</th>
+
+
+				<td>
+					<input type="text" style="width: 400px;" name="miaoshu"
+						id="miaoshu_content1" value=""  >
+				
+			
+					<!-- <input type="button" class="button" id="check_title_alt"
+						value="检测重复"
+						onclick="$.get('?m=content&amp;c=content&amp;a=public_check_title&amp;catid=8&amp;sid='+Math.random()*5, {data:$('#title').val()}, function(data){if(data=='1') {$('#check_title_alt').val('标题重复');$('#check_title_alt').css('background-color','#FFCC66');} else if(data=='0') {$('#check_title_alt').val('标题不重复');$('#check_title_alt').css('background-color','#F8FFE1')}})"
+						style="width: 73px;">
+					<span id="title_colorpanel" style="position: absolute;"
+						class="colorpanel"></span> -->
+				
+				</td>
+
+
+			</tr>
+			<tr>
+				<th width="80">原因分析</th>
+				<td>
+					<textarea name="yuanyin" id="yuanyin_content"
+						style="width: 98%; height: 46px;"
+						onkeyup=""></textarea>
+					
+				</td>
+			</tr>
+
+			<tr>
+				<th width="80">问题整改</th>
+				<td>
+					<textarea name="zhenggai" id="zhenggai_content"
+						style="width: 98%; height: 46px;"
+						onkeyup=""></textarea>
+				<input type="hidden" name="id" value="value">
+						
+				</td>
+			</tr>
+	
+
+			
+		</table>
+    </form>  
+
+</div> 
+<div id="dlg-edit">
+	<div class="tool_tip">只有自己发布的质量信息才能进行编辑！！</div>
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="edit()">确认</a>    
+    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#edit').dialog('close')">取消</a>    
+</div>

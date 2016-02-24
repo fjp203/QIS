@@ -1,0 +1,58 @@
+[ 2015-05-19T11:11:08+08:00 ] 127.0.0.1 /qis/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015491s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.125343s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'fjp203' LIMIT 1   [ RunTime:0.079993s ]
+SQL: UPDATE `think_user` SET `login_ip`='127.0.0.1',`last_login_time`='15-05-19 11:11:08' WHERE `id` = 52 [ RunTime:0.182076s ]
+SQL: UPDATE `think_user` SET `login_num`=login_num+1 WHERE `id` = 52 [ RunTime:0.026301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017509s ]
+
+[ 2015-05-19T11:11:10+08:00 ] 127.0.0.1 /qis/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2015-05-19T11:11:15+08:00 ] 127.0.0.1 /qis/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+

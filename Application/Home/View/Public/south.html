@@ -1,0 +1,52 @@
+<div data-options="region:'south',title:'关于…',split:true,collapsed:true,iconCls:'icon-standard-information'" style="height: 100px;">
+	<div>
+		<p class="Attribute">@ 2015-2080版权所有：特种车事业部 工艺科
+			<a href="#" onclick="fjp203()">
+				<img src="__PUBLIC__/images/fjp203.png" class="fjpicon" alt="fjp203" />
+
+			</a>
+
+		</p>
+
+		<p class="Attribute">建议使用
+			
+			<a href="__PUBLIC__/downloads/360se7.1.1.800.exe" target="_blank">360浏览器</a> /
+			<a href="__PUBLIC__/downloads/IE10-Win7 x86.exe" target="_blank"> IE浏览器（版本9/10/11）</a> /
+			
+			<a href="__PUBLIC__/downloads/ChromeStandalone_v44.0.2403.157_Setup.1440142013.exe" target="_blank">Chorme</a> 系列浏览器。</p>
+	</div>
+
+</div>
+
+<!--作者介绍窗口-->
+<div id="fjp_info" class="easyui-dialog" style="width:220px;height:280px;padding:2px 10px;" title="&nbsp;&nbsp;作者介绍" data-options="iconCls:'icon-standard-house-go',buttons:'#dlg-buttons',closed:true,resizable:true,modal:false,closable:true">
+
+	<table border="0">
+		<tr>
+			<td colspan="2" style="text-align:center;padding: 20px 10px 10px 10px;">
+				<img src="__PUBLIC__/images/me.jpg" class="account-avator-bg" />
+			</td>
+		</tr>
+		<tr>
+			<td width="53">姓名</td>
+			<td width="137">范建鹏</td>
+		</tr>
+		<tr>
+			<td>科室</td>
+			<td>工艺科</td>
+		</tr>
+		<tr>
+			<td>电话</td>
+			<td>83388352</td>
+		</tr>
+	</table>
+
+</div>
+<div id="dlg-buttons">
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="javascript:$('#fjp_info').dialog('close')">确定</a>
+</div>
+<script type="text/javascript">
+	function fjp203() {
+		$("#fjp_info").dialog("open").dialog('setTitle', '&nbsp;&nbsp;作者介绍');
+	}
+</script>

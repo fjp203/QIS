@@ -1,0 +1,119 @@
+<div data-options="region:'north',title:'',split:true" class="north_title">
+
+	<table style="width:100%;cellspacing:0px;cellpadding:0px;border:'0px';align:'center'">
+		<tbody>
+			<tr height="50">
+				<td width="150" align="center">
+					<img src="__PUBLIC__/images/logo.png" height="50px" alt="logo" />
+				</td>
+				<td valign="middle" align="center">
+					<font style="font-size:18pt;font-family:华文隶书,黑体,宋体,华文琥珀,隶书;color:#0E2D5F;">特种车事业部<font>&nbsp;<b style="font-size:11pt;font-style:blod">{$Think.const.APP_NAME}&nbsp;{$Think.const.APP_VERSION}</b>
+
+       <br><b>『 {$Think.const.APP_URL},&nbsp; {$Think.const.APP_VERSION} 』<b>
+
+    </b></b></font></font>
+				</td>
+				<td width="200" valign="top" align="center">
+					<table style="width:100%;cellspacing:0px;cellpadding:0px;border:'0px';align:'center'">
+						<tbody>
+
+							<!--通过session进行判断-->
+							<if condition="!empty($_SESSION[C('USER_AUTH_KEY')])">
+								<tr>
+									<td style="color:#0E2D5F">
+										【{$_SESSION['zname']}:{$_SESSION[ 'uname']}| IP:{$_SERVER[ "REMOTE_ADDR"]}】
+
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a style="color:#0E2D5F" href='#' onclick='changePW_show()'>【 修改密码 】</a>
+										<a style="color:#0E2D5F" href='#' onclick='loginout_show()'>【 退出系统 】</a>
+									</td>
+								</tr>
+								<else/>
+								<tr>
+									<td>
+										<a class='easyui-linkbutton' plain='true' iconCls='icon-standard-house-go' href='#' onclick='login_show()'><font style="color:#0E2D5F">登录系统</font></a>
+
+									</td>
+								</tr>
+								<tr>
+
+									<td>
+										<a class='easyui-linkbutton' plain='true' iconCls='icon-standard-user-add' href='#' onclick='regedit_show()'><font style="color:#0E2D5F">注册账户</font></a>
+
+									</td>
+
+								</tr>
+
+							</if>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+<script type="text/javascript">
+	function loginout_show(){    
+	$('#loginout').window('open');  // open a window   
+}
+//退出登录实现
+function loginout(){
+	$('#loginoutForm').form('submit',{
+			url:'__APP__/Admin/Login/logout',
+			success:function(data){
+					$('#loginout').dialog('close');
+				$.messager.alert('已经退出', data, 'info');
+				window.location.reload();
+  				
+			
+			}
+		});
+	}
+//修改密码
+function changePW_show(){    
+	$('#changePW').window('open');  // open a window   
+}
+	//更改密码
+function changePW(){
+
+	$('#changePWForm').form('submit',{
+			
+			url:'__APP__/Admin/Login/logout',
+			success:function(data){
+				
+				//$.messager.alert('已经退出', data, 'info');
+				window.location.href = "index.php";
+			
+			}
+		});
+	}
+//
+function login_show(){    
+	$('#login').window('open');  // open a window   
+}
+function login(){
+$('#loginForm').form('submit',{
+		url:'__APP__/Admin/Login/checkLogin',
+		success:function(data){
+		
+			
+			$.messager.alert('登录', data, 'info');
+			$('#login').dialog('close');
+			
+			//window.location.href = "index.php";
+		  //(window).unbind("beforeunload");
+		  window.location.reload(); 
+		
+		}
+	});
+	
+	}
+function regedit_show(){    
+
+	$('#regedit').window('open');  // open a window   
+}
+</script>

@@ -1,0 +1,24 @@
+[ 2015-08-26T15:25:45+08:00 ] 127.0.0.1 /qis/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003677s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'fjp203' LIMIT 1   [ RunTime:0.0862s ]
+SQL: UPDATE `think_user` SET `login_ip`='127.0.0.1',`last_login_time`='15-08-26 03:25:44' WHERE `id` = 60 [ RunTime:0.3958s ]
+SQL: UPDATE `think_user` SET `login_num`=login_num+1 WHERE `id` = 60 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002540s ]
+

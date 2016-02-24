@@ -1,0 +1,198 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--登录窗口-->
+<style>
+	.regedituser{
+		color: #0E2D5F;
+	}
+</style>
+
+<div id="login" class="easyui-dialog" style="width:346px;height:220px;padding:2px 10px;" title="&nbsp;&nbsp;登录" data-options="iconCls:'icon-standard-house-go',buttons:'#dlg-buttons',closed:true,resizable:false,modal:false,closable:true">
+
+	<table>
+		<tr>
+			<td>
+				<img title="HustMesWeb" border="0" width="150" alt="http://fjpfly.vipsinaapp.com/" src="__PUBLIC__/images/logo.png">
+
+			</td>
+			<td style="background-image: url(__PUBLIC__/images/big_seperator.png);background-repeat: no-repeat;width: 8px;height: 138px;background-position: center center;"></td>
+			<td>
+				<form id="loginForm" method="post">
+					<table>
+						<tr height="30px">
+							<td style="color:#B083E4">用户名:</td>
+							<td>
+								<input type="text" name="username" class="easyui-validatebox validatebox-text" data-options="required:true" value="" style="width:100px;" />
+							</td>
+						</tr>
+
+						<tr height="30px">
+							<td style="color:#B083E4">密码:</td>
+							<td>
+								<input type="password" class="easyui-validatebox validatebox-text" data-options="required:true" value="" name="password" style="width:100px;" />
+							</td>
+						</tr>
+
+					</table>
+				</form>
+
+			</td>
+		</tr>
+	</table>
+
+</div>
+<div id="dlg-buttons">
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="login()">登录</a>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#login').dialog('close')">取消</a>
+</div>
+
+<!--退出窗口-->
+<div id="loginout" class="easyui-dialog" style="width:340px;height:120px;padding:10px 10px;" title="退出" data-options="iconCls:'icon-login',buttons:'#dlgout-buttons',closed:true,resizable:true,modal:true,closable:false">
+	<form id="loginoutForm" method="post">
+	</form>
+	确认要退出吗？
+
+</div>
+<div id="dlgout-buttons">
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="loginout()">确认</a>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#loginout').dialog('close')">取消</a>
+</div>
+
+<!--更改密码窗口-->
+<div id="changePW" class="easyui-dialog" style="width:340px;height:220px;padding:30px 30px;" title="修改密码" data-options="iconCls:'icon-standard-lock-edit',buttons:'#dlg-buttons',closed:true,resizable:true,modal:true,closable:false">
+
+	<form id="changePWForm" method="post">
+		<table>
+			<tr>
+				<td>原密码:</td>
+				<td>
+					<input type="password" class="easyui-validatebox validatebox-text" data-options="required:true" value="" name="ypassword" style="width:200px;" />
+				</td>
+			</tr>
+
+			<tr>
+				<td>新密码:</td>
+				<td>
+					<input type="password" class="easyui-validatebox validatebox-text" data-options="required:true" value="" name="xpassword" style="width:200px;" />
+				</td>
+			</tr>
+
+		</table>
+	</form>
+</div>
+<div id="dlg-buttons">
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="changePW()">确认</a>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#changePW').dialog('close')">取消</a>
+</div>
+
+<!--注册用户 -->
+<div id="regedit" class="easyui-dialog"
+	style="width: 400px; height:220px; padding: 20px 0px 0px 100px; overflow: hidden;"
+	title="&nbsp;&nbsp;注册用户"
+	data-options="iconCls:'icon-standard-user-add',buttons:'#dlg_regedit',closed:true,resizable:true,modal:true,closable:true">
+
+
+	<form id="regedit_form"  method="post" >
+		<table class="regedituser">
+			<tr>
+				<td style="width:80px;">
+					<label  for="laiyuan">用户名:</label>
+				</td>
+				<td>
+					<input id="username" name="username" type="text"   style="width: 120px;" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="laiyuan">用户组:</label>
+				</td>
+				<td>
+
+					<select id="group_id" class="easyui-combobox" name="group_id"
+						data-options="editable:false,panelHeight:'auto'"
+						style="width: 120px;">
+
+
+						<option value="2">录入者</option>
+                        <option value="3">浏览者</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="laiyuan">E-Mail:</label>
+				</td>
+				<td>
+
+
+					<input id="email" name="email" type="text" style="width: 120px;" />
+				</td>
+			</tr>
+
+
+
+	<!--		<tr>
+				<td>
+					<label for="laiyuan">状态:</label>
+				</td>
+				<td>
+
+
+					<select id="status" class="easyui-combobox" name="status"
+						data-options="editable:false,panelHeight:'auto'"
+						style="width: 120px;">
+						<option value="1">开启</option>
+						<option value="0">关闭</option>
+					</select>
+
+				</td>
+			</tr>-->
+			<tr>
+				<td>
+					<input type="hidden" name="status" id="status" value= "0">
+					<label for="laiyuan">密码:</label>
+				</td>
+				<td>
+
+					<input type="password" id="password" name="password" type="text"
+						style="width: 120px;" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="laiyuan">确认密码:</label>
+				</td>
+				<td>
+
+					<input type="password" id="repassword" name="repassword"
+						type="text" style="width: 120px;" />
+				</td>
+			</tr>
+
+		</table>
+	</form>
+
+
+</div>
+
+<div id="dlg_regedit">
+	<a href="#" class="easyui-linkbutton" id="bt_regedit" data-options="iconCls:'icon-ok'">确认</a>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#regedit').dialog('close')">取消</a>
+</div>
+<script>
+		$('#bt_regedit').click(
+				function(){
+			$('#regedit_form').form('submit',{
+					
+					url:'__APP__/Home/Index/regedit',
+
+					success:function(data){					
+						$.messager.alert('注册用户', data,'info');
+						$('#regedit').dialog('close')
+						
+					}
+				});
+	})
+			
+		
+
+</script>

@@ -1,0 +1,87 @@
+[ 2015-03-04T09:34:10+08:00 ] 127.0.0.1 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 144 行.
+NOTIC: [8] Undefined variable: sysName E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 299 行.
+NOTIC: [8] Undefined variable: vistion E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.410625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.410798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018325s ]
+
+[ 2015-03-04T09:34:13+08:00 ] 127.0.0.1 /QIS/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `think_announcement` [ RunTime:0.062062s ]
+SQL: SELECT * FROM `think_announcement`  [ RunTime:0.002004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2015-03-04T09:34:14+08:00 ] 127.0.0.1 /QIS/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `think_announcement` [ RunTime:0.008966s ]
+SQL: SELECT * FROM `think_announcement`  [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003349s ]
+
+[ 2015-03-04T09:34:17+08:00 ] 127.0.0.1 /QIS/Home/Quality/show_Quality?_=1425432857265
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: _userid E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\f941d511b4b3cc6fbdd0b0e3a3ff655c.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003166s ]
+
+[ 2015-03-04T09:34:18+08:00 ] 127.0.0.1 /QIS/Home/Quality/Quality_data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002491s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.037013s ]
+ERR: 1146:Table 'qis.think_quality' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_quality`
+SQL: SELECT * FROM `think_quality`  [ RunTime:0.001573s ]
+ERR: 1146:Table 'qis.think_quality' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `think_quality` 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004641s ]
+

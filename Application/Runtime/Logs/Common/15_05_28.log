@@ -1,0 +1,18 @@
+[ 2015-05-28T10:24:36+08:00 ] 127.0.0.1 /qis/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001127s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-28T13:30:43+08:00 ] 127.0.0.1 /qis/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038641s ]
+ERR: 无法加载模块:Public
+
+[ 2015-05-28T17:34:12+08:00 ] 127.0.0.1 /qis/Public/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+

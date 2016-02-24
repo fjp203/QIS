@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>帐号名称已经存在！

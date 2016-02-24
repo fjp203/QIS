@@ -1,0 +1,57 @@
+[ 2015-11-12T13:54:51+08:00 ] 192.168.37.81 /QIS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000661s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Use of undefined constant APP_VERSION - assumed 'APP_VERSION' E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Use of undefined constant APP_URL - assumed 'APP_URL' E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+NOTIC: [8] Use of undefined constant APP_VERSION - assumed 'APP_VERSION' E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 49 行.
+NOTIC: [8] Undefined index: authId E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 159 行.
+NOTIC: [8] Use of undefined constant APP_VERSION - assumed 'APP_VERSION' E:\xampp\htdocs\QIS\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 282 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.381723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.381921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.039426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021737s ]
+
+[ 2015-11-12T13:54:57+08:00 ] 192.168.37.81 /QIS/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.3562s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0283s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2015-11-12T13:54:57+08:00 ] 192.168.37.81 /QIS/index.php/Home/Index/announcement
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `think_quality` [ RunTime:0.0206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_quality` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+

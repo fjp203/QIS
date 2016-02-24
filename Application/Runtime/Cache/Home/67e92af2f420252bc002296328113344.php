@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>选择评论失败！

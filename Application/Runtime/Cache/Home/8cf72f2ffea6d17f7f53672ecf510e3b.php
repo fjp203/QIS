@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>此功能正在编写!150

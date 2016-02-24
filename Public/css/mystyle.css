@@ -1,0 +1,134 @@
+.Attribute {
+color: #4e5766;
+padding: 10px 0px 0px 0px;
+margin: 0px auto;
+text-align: center;
+font-size: 12px;
+font-family: 微软雅黑;
+}
+.account-avator-bg {
+display: inline-block;
+max-width: 100%;
+width:100px;
+height: 100px;
+padding: 2px;
+line-height: 1.6;
+background-color: #fff;
+border: 1px solid #ddd;
+-webkit-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+border-radius: 50%;
+}
+.bk10 {
+	height: 10px;
+}
+.linkicon{
+	width:16px;
+	height:16px; 
+	border:0px;
+}
+.fjpicon{
+width:35px;
+	height:12px; 
+	border:0px;	
+}
+#image{
+	height:300px;
+	width:720px;
+	border:1px #969594 solid;
+}
+.smwd {
+	list-style-position: inside;
+	list-style-image: url(../easyui/themes/icons/icon-standard/16x16/bullet-orange.png);
+	list-style-type: circle;
+	line-height: 20px;	
+}
+.north_title{
+	height: 65px;
+background: url(../images/header.png) scroll;
+background-size:cover;
+overflow:hidden;
+
+}
+.table_form td, .table_form th {
+	padding: 10px 0 20px 1px;
+}
+.table_form{
+	border: solid 0px #95B8E7;
+	border-top: 0px ;
+}
+.table_form td{
+	border-bottom: solid 1px #95B8E7;
+	padding-left: 10px;	
+}
+.table_form th{
+	border-right: solid 1px #95B8E7;
+	border-bottom: solid 1px #95B8E7;
+	background-color:#E0ECFF;
+}
+.tool_tip{
+	float: left;
+	padding-left: 10px;
+}
+.table_view{
+	border:0px;
+	border-right: solid 1px #95B8E7;
+	border-bottom: solid 1px #95B8E7;
+	width:100%;
+	table-layout: fixed;
+	overflow: hidden;
+	color:0E2D5F;
+}
+.table_title{
+	border:0px;
+	border-right: solid 1px #95B8E7;
+	border-bottom: solid 1px #95B8E7;
+	width:100%;
+}
+.table_view td{
+	font-size: 14px;
+	border-left: solid 1px #95B8E7;
+	border-top: solid 1px #95B8E7;
+	padding:5px 0 5px 4px;
+}
+.thh{
+	background-color:#E0ECFF;
+	text-align: left;
+	font-weight: bold;
+
+}
+.view_title{
+	text-align: center;
+	font-size: 22px;
+	padding: 0px 0 10px 0;
+	font-weight: bold;
+	
+}
+.view_input:disabled {
+	font-size: 16px;
+	color:black;
+	background-color:#FFFFFF;
+	border:0px;
+}
+.pic_view{
+	
+ max-height:300px; 
+ max-width:700px; 
+ width:expression(this.width > 640 && this.height < this.width ? 640: true); 
+ height:expression(this.height > 720 ? 720: true);
+
+}
+
+
+ /*****弹出层动画*******/
+*{ margin:0; padding:0;}
+body {background: #333;}
+#pageContent {width: 980px;	height: 500px;overflow: hidden;position:relative;margin:50px auto;}
+#imgContainer {width: 980px;height: 500px;}
+#positionButtonDiv {background: rgb(58, 56, 63);background: rgba(58, 56, 63, 0.8);border: solid 1px #100000;color: #fff;padding: 8px;text-align: left;position: absolute;right:35px;top:35px;}
+#positionButtonDiv .positionButtonSpan img {float: right;border: 0;}
+.positionMapClass area {cursor: pointer;}
+.zoomButton {border: 0;	cursor: pointer;}
+.zoomableContainer {background-image: url("../images/zoom/transparent.png");
+border: solid 1px #95B8E7;}  
+    <![endif]-->

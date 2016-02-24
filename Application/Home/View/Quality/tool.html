@@ -1,0 +1,58 @@
+<div id="tool">    
+
+<table>
+<tr>
+
+	<if condition="$_SESSION[C('USER_AUTH_KEY')] gt 0 and $_SESSION[C('USER_AUTH_KEY')] lt 3">
+     
+
+
+<td>
+	<a href="#" id= "aaa1" class="easyui-linkbutton"  onclick='show_add()' data-options="iconCls:'icon-standard-folder-page',plain:true">添加</a> 
+    <a href="#" class="easyui-linkbutton"  onclick='dele()' data-options="iconCls:'icon-standard-page-white-delete',plain:true">删除</a> 	
+    <a href="#" class="easyui-linkbutton"  onclick='show_edit()' data-options="iconCls:'icon-standard-application-edit',plain:true">编辑</a> 		
+
+
+
+
+				 <td>
+     <div class="datagrid-btn-separator"></div>
+ </td>
+				  
+</if>
+ <td>
+    <a href="#"  class="easyui-linkbutton"   onclick="excel()" data-options="iconCls:'icon-standard-page-white-excel',plain:true">导出</a>
+	  <a href="#" class="easyui-linkbutton"  onclick="view()" data-options="iconCls:'icon-standard-application-view-gallery',plain:true">查看</a> 
+	  <a href="#" class="easyui-linkbutton"  onclick="show_pinlun()" data-options="iconCls:'icon-standard-building-add',plain:true">评论</a> 
+   </td>
+   	 <td>
+     <div class="datagrid-btn-separator"></div>
+ </td>
+   <td>
+
+	  <a href="#" class="easyui-linkbutton"  onclick="reload()" data-options="iconCls:'icon-standard-arrow-refresh',plain:true">刷新</a> 
+
+   </td>
+   		 <td>
+     <div class="datagrid-btn-separator"></div>
+ </td>
+   <td>
+     	<div style="float:right;">        
+               <input  id='searchbox' class="easyui-searchbox" data-options="" style="width:400px;"></input>
+			   </div>
+			  
+			      
+			   <div id="mm" style="width:400px">
+			    <div data-options="name:'miaoshu',iconCls:'icon-standard-table-edit',selected:true">问题描述</div>
+	<div data-options="name:'creattime',iconCls:'icon-standard-date-magnify'" >日期</div>
+	<div data-options="name:'cx',iconCls:'icon-standard-table-multiple'" >车型</div>
+   
+	<div data-options="name:'laiyuan',iconCls:'icon-standard-tag-blue'" >来源</div>
+	<div data-options="name:'yuanyin',iconCls:'icon-standard-sum'">原因分析</div>
+	<div data-options="name:'zhenggai',iconCls:'icon-standard-table-edit'">问题整改</div>
+
+</div>
+	   </td>
+</tr>
+</table>
+</div>

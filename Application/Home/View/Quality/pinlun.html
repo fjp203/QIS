@@ -1,0 +1,51 @@
+<div id="pl" class="easyui-dialog"
+	style="width: 580px; height: 240px; padding: 5px; overflow: hidden;"
+	title="&nbsp;&nbsp;评论"
+	data-options="iconCls:'icon-standard-building-add',buttons:'#pl-add',closed:true,resizable:false,modal:false,closable:true">
+
+
+	<form id="add_pl" action="__APP__/Home/Quality/pinlun" enctype="multipart/form-data" method="post" >
+		 <!--我要评论-->
+       <input type="hidden" name="id" id="hideid" value="value">
+       <input type="hidden" name="pinglun" id="hidepl" value="value">
+       <textarea name="pl_text" id="pl_text"
+						style="width: 100%; height: 100%;"
+						onkeyup=""></textarea>
+					<br />
+					
+	</form>
+	
+
+</div>
+
+<div id="pl-add">
+	<div class="tool_tip" id="pl_contentwordage">
+		</div>
+	<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'"
+		onclick="pinglun()">确认</a>
+	<a href="#" class="easyui-linkbutton"
+		data-options="iconCls:'icon-cancel'"
+		onclick="javascript:$('#pl').dialog('close')">取消</a>
+</div>
+<script>
+$(document).ready(function(){
+    var limitNum = 255;
+    var pattern = '还可以输入' + limitNum + '字符';
+    $('#pl_contentwordage').html(pattern);
+    $('#pl_text').keyup(
+    function(){
+        var remain = $(this).val().length;
+        if(remain > limitNum){
+                pattern = "字数超过限制！";
+            }else{
+                var result = limitNum - remain;
+                pattern = '还可以输入' + result + '字符';
+            }
+            $('#pl_contentwordage').html(pattern);
+        }
+    );
+    
+   
+ 
+});
+</script>
